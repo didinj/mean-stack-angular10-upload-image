@@ -1,0 +1,10 @@
+<a [routerLink]="['/gallery']"><h3>Upload again!</h3></a>
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{gallery.imageTitle}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="{{gallery.imageUrl}}" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>{{gallery.imageDesc}}</p>
+  </mat-card-content>
+</mat-card>
